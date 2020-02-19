@@ -22,7 +22,7 @@
   <link href="lib/animate/animate.min.css" rel="stylesheet">
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css?family=Cairo:400,700&display=swap" rel="stylesheet">
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
@@ -40,7 +40,7 @@
   <!--/ Form Search Star /-->
   <div class="box-collapse">
     <div class="title-box-d">
-      <h3 class="title-d">Search Property</h3>
+      <h3 class="title-d">بحث عقار</h3>
     </div>
     <span class="close-box-collapse right-boxed ion-ios-close"></span>
     <div class="box-collapse-wrap form">
@@ -48,70 +48,45 @@
         <div class="row">
           <div class="col-md-12 mb-2">
             <div class="form-group">
-              <label for="Type">Keyword</label>
-              <input type="text" class="form-control form-control-lg form-control-a" placeholder="Keyword">
+              <label for="Type">اسم العقار</label>
+              <input type="text" class="form-control form-control-lg form-control-a" placeholder="اسم العقار">
             </div>
           </div>
           <div class="col-md-6 mb-2">
             <div class="form-group">
-              <label for="Type">Type</label>
+              <label for="Type">النوع</label>
               <select class="form-control form-control-lg form-control-a" id="Type">
-                <option>All Type</option>
-                <option>For Rent</option>
-                <option>For Sale</option>
-                <option>Open House</option>
+                <option>بيع</option>
+                <option>ايجار</option>
               </select>
             </div>
           </div>
           <div class="col-md-6 mb-2">
             <div class="form-group">
-              <label for="city">City</label>
+              <label for="city">العنوان</label>
               <select class="form-control form-control-lg form-control-a" id="city">
-                <option>All City</option>
-                <option>Alabama</option>
-                <option>Arizona</option>
-                <option>California</option>
-                <option>Colorado</option>
+                <option>القاهرة</option>
+                <option>الجيزة</option>
+                <option>الفيوم</option>
+                <option>المنيا</option>
+                <option>الإسكندرية</option>
               </select>
             </div>
           </div>
           <div class="col-md-6 mb-2">
             <div class="form-group">
-              <label for="bedrooms">Bedrooms</label>
-              <select class="form-control form-control-lg form-control-a" id="bedrooms">
-                <option>Any</option>
-                <option>01</option>
-                <option>02</option>
-                <option>03</option>
-              </select>
-            </div>
-          </div>
-          <div class="col-md-6 mb-2">
-            <div class="form-group">
-              <label for="garages">Garages</label>
-              <select class="form-control form-control-lg form-control-a" id="garages">
-                <option>Any</option>
-                <option>01</option>
-                <option>02</option>
-                <option>03</option>
-                <option>04</option>
-              </select>
-            </div>
-          </div>
-          <div class="col-md-6 mb-2">
-            <div class="form-group">
-              <label for="bathrooms">Bathrooms</label>
+              <label for="bathrooms">السعر الأدني</label>
               <select class="form-control form-control-lg form-control-a" id="bathrooms">
-                <option>Any</option>
-                <option>01</option>
-                <option>02</option>
-                <option>03</option>
+                <option>10000</option>
+                <option>20000</option>
+                <option>30000</option>
+                <option>40000</option>
               </select>
             </div>
           </div>
           <div class="col-md-6 mb-2">
             <div class="form-group">
-              <label for="price">Min Price</label>
+              <label for="price">السعر الأقصي</label>
               <select class="form-control form-control-lg form-control-a" id="price">
                 <option>Unlimite</option>
                 <option>$50,000</option>
@@ -122,7 +97,7 @@
             </div>
           </div>
           <div class="col-md-12">
-            <button type="submit" class="btn btn-b">Search Property</button>
+            <button type="submit" class="btn btn-b">بحث</button>
           </div>
         </div>
       </form>
@@ -131,7 +106,7 @@
   <!--/ Form Search End /-->
 
   <!--/ Nav Star /-->
-  <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+  <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top" dir="rtl">
     <div class="container">
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -139,7 +114,7 @@
         <span></span>
         <span></span>
       </button>
-      <a class="navbar-brand text-brand" href="index.html">Estate<span class="color-b">Agency</span></a>
+      <a class="navbar-brand text-brand" href="index.html"> إسكان<span class="color-b"> جديد </span></a>
       <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse"
         data-target="#navbarTogglerDemo01" aria-expanded="false">
         <span class="fa fa-search" aria-hidden="true"></span>
@@ -147,21 +122,21 @@
       <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home</a>
+            <a class="nav-link active" href="index.html">أخبار</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="about.html">إيجار</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="property-grid.html">Property</a>
+            <a class="nav-link" href="property-grid.html">بيع</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="blog-grid.html">Blog</a>
+            <a class="nav-link" href="blog-grid.html">عقد تجاري</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
-              Pages
+              المزيد
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="property-single.html">Property Single</a>
@@ -171,7 +146,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact.html">تواصل</a>
           </li>
         </ul>
       </div>
@@ -194,13 +169,13 @@
               <div class="row">
                 <div class="col-lg-8">
                   <div class="intro-body">
-                    <p class="intro-title-top">Doral, Florida
-                      <br> 78345</p>
+                    <p class="intro-title-top">فيلا , المعادي
+                      <br> مساحة 1300 متر</p>
                     <h1 class="intro-title mb-4">
-                      <span class="color-b">204 </span> Mount
-                      <br> Olive Road Two</h1>
+                      <span class="color-b">204 </span> فيلا
+                      <br> يكمنك الحجز الأن</h1>
                     <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">rent | $ 12.000</span></a>
+                      <a href="#"><span class="price-a">السعر |  12.0000.0</span></a>
                     </p>
                   </div>
                 </div>
@@ -217,13 +192,13 @@
               <div class="row">
                 <div class="col-lg-8">
                   <div class="intro-body">
-                    <p class="intro-title-top">Doral, Florida
-                      <br> 78345</p>
+                    <p class="intro-title-top">فيلا , المعادي
+                      <br> مساحة 1300 متر</p>
                     <h1 class="intro-title mb-4">
-                      <span class="color-b">204 </span> Rino
-                      <br> Venda Road Five</h1>
+                      <span class="color-b">204 </span> فيلا
+                      <br> يكمنك الحجز الأن</h1>
                     <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">rent | $ 12.000</span></a>
+                      <a href="#"><span class="price-a">السعر |  12.0000.0</span></a>
                     </p>
                   </div>
                 </div>
@@ -240,13 +215,13 @@
               <div class="row">
                 <div class="col-lg-8">
                   <div class="intro-body">
-                    <p class="intro-title-top">Doral, Florida
-                      <br> 78345</p>
+                    <p class="intro-title-top">فيلا , المعادي
+                      <br> مساحة 1300 متر</p>
                     <h1 class="intro-title mb-4">
-                      <span class="color-b">204 </span> Alira
-                      <br> Roan Road One</h1>
+                      <span class="color-b">204 </span> فيلا
+                      <br> يكمنك الحجز الأن</h1>
                     <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">rent | $ 12.000</span></a>
+                      <a href="#"><span class="price-a">السعر |  12.0000.0</span></a>
                     </p>
                   </div>
                 </div>
@@ -261,12 +236,12 @@
 
   <!--/ Services Star /-->
   <section class="section-services section-t8">
-    <div class="container">
+    <div class="container" dir="rtl">
       <div class="row">
         <div class="col-md-12">
           <div class="title-wrap d-flex justify-content-between">
             <div class="title-box">
-              <h2 class="title-a">Our Services</h2>
+              <h2 class="title-a">خدماتنا</h2>
             </div>
           </div>
         </div>
@@ -279,18 +254,16 @@
                 <span class="fa fa-gamepad"></span>
               </div>
               <div class="card-title-c align-self-center">
-                <h2 class="title-c">Lifestyle</h2>
+                <h2 class="title-c">إنشاء</h2>
               </div>
             </div>
             <div class="card-body-c">
               <p class="content-c">
-                Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Praesent sapien massa,
-                convallis a pellentesque
-                nec, egestas non nisi.
+                خدمات إسكان جديد تساعدك على بيع وشراء العقارات بسهولة بالإضافة إلى تزويدك بمعلومات أساسية لإتخاذ واحد من أهم القرارات المالية في حياتك.
               </p>
             </div>
             <div class="card-footer-c">
-              <a href="#" class="link-c link-icon">Read more
+              <a href="#" class="link-c link-icon">قراءة المزيد
                 <span class="ion-ios-arrow-forward"></span>
               </a>
             </div>
@@ -303,18 +276,16 @@
                 <span class="fa fa-usd"></span>
               </div>
               <div class="card-title-c align-self-center">
-                <h2 class="title-c">Loans</h2>
+                <h2 class="title-c">بيع</h2>
               </div>
             </div>
-            <div class="card-body-c">
+            <div class="card-body-c" >
               <p class="content-c">
-                Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit. Mauris blandit
-                aliquet elit, eget tincidunt
-                nibh pulvinar a.
+                خدمات إسكان جديد تساعدك على بيع وشراء العقارات بسهولة بالإضافة إلى تزويدك بمعلومات أساسية لإتخاذ واحد من أهم القرارات المالية في حياتك.
               </p>
             </div>
             <div class="card-footer-c">
-              <a href="#" class="link-c link-icon">Read more
+              <a href="#" class="link-c link-icon">قراءة المزيد
                 <span class="ion-ios-arrow-forward"></span>
               </a>
             </div>
@@ -327,18 +298,16 @@
                 <span class="fa fa-home"></span>
               </div>
               <div class="card-title-c align-self-center">
-                <h2 class="title-c">Sell</h2>
+                <h2 class="title-c">إسكان</h2>
               </div>
             </div>
             <div class="card-body-c">
               <p class="content-c">
-                Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Praesent sapien massa,
-                convallis a pellentesque
-                nec, egestas non nisi.
+                خدمات إسكان جديد تساعدك على بيع وشراء العقارات بسهولة بالإضافة إلى تزويدك بمعلومات أساسية لإتخاذ واحد من أهم القرارات المالية في حياتك.
               </p>
             </div>
             <div class="card-footer-c">
-              <a href="#" class="link-c link-icon">Read more
+              <a href="#" class="link-c link-icon">قراءة المزيد
                 <span class="ion-ios-arrow-forward"></span>
               </a>
             </div>
@@ -356,10 +325,10 @@
         <div class="col-md-12">
           <div class="title-wrap d-flex justify-content-between">
             <div class="title-box">
-              <h2 class="title-a">Latest Properties</h2>
+              <h2 class="title-a">الأكثر طلبا</h2>
             </div>
             <div class="title-link">
-              <a href="property-grid.html">All Property
+              <a href="property-grid.html">كل العقارات
                 <span class="ion-ios-arrow-forward"></span>
               </a>
             </div>
@@ -376,36 +345,36 @@
               <div class="card-overlay-a-content">
                 <div class="card-header-a">
                   <h2 class="card-title-a">
-                    <a href="property-single.html">206 Mount
-                      <br /> Olive Road Two</a>
+                    <a href="property-single.html">206 مربع
+                      <br /> التجمع الخامس</a>
                   </h2>
                 </div>
                 <div class="card-body-a">
                   <div class="price-box d-flex">
-                    <span class="price-a">rent | $ 12.000</span>
+                    <span class="price-a">السعر | $ 12.000</span>
                   </div>
-                  <a href="#" class="link-a">Click here to view
+                  <a href="#" class="link-a">إحجز الأن
                     <span class="ion-ios-arrow-forward"></span>
                   </a>
                 </div>
                 <div class="card-footer-a">
                   <ul class="card-info d-flex justify-content-around">
                     <li>
-                      <h4 class="card-info-title">Area</h4>
+                      <h4 class="card-info-title">مساحة</h4>
                       <span>340m
                         <sup>2</sup>
                       </span>
                     </li>
                     <li>
-                      <h4 class="card-info-title">Beds</h4>
+                      <h4 class="card-info-title">حمام</h4>
                       <span>2</span>
                     </li>
                     <li>
-                      <h4 class="card-info-title">Baths</h4>
+                      <h4 class="card-info-title">غرف</h4>
                       <span>4</span>
                     </li>
                     <li>
-                      <h4 class="card-info-title">Garages</h4>
+                      <h4 class="card-info-title">ريسيبشن</h4>
                       <span>1</span>
                     </li>
                   </ul>
@@ -423,33 +392,33 @@
               <div class="card-overlay-a-content">
                 <div class="card-header-a">
                   <h2 class="card-title-a">
-                    <a href="property-single.html">157 West
-                      <br /> Central Park</a>
+                    <a href="property-single.html">157 شقة
+                      <br /> المعادي</a>
                   </h2>
                 </div>
                 <div class="card-body-a">
                   <div class="price-box d-flex">
-                    <span class="price-a">rent | $ 12.000</span>
+                    <span class="price-a">السعر | $ 12.000</span>
                   </div>
-                  <a href="property-single.html" class="link-a">Click here to view
+                  <a href="property-single.html" class="link-a">إحجز الأن
                     <span class="ion-ios-arrow-forward"></span>
                   </a>
                 </div>
                 <div class="card-footer-a">
                   <ul class="card-info d-flex justify-content-around">
                     <li>
-                      <h4 class="card-info-title">Area</h4>
+                      <h4 class="card-info-title">مساحة</h4>
                       <span>340m
                         <sup>2</sup>
                       </span>
                     </li>
                     <li>
-                      <h4 class="card-info-title">Beds</h4>
+                      <h4 class="card-info-title">حمام</h4>
                       <span>2</span>
                     </li>
                     <li>
-                      <h4 class="card-info-title">Baths</h4>
-                      <span>4</span>
+                      <h4 class="card-info-title">غرف</h4>
+                      <span>6</span>
                     </li>
                     <li>
                       <h4 class="card-info-title">Garages</h4>
@@ -470,33 +439,33 @@
               <div class="card-overlay-a-content">
                 <div class="card-header-a">
                   <h2 class="card-title-a">
-                    <a href="property-single.html">245 Azabu
-                      <br /> Nishi Park let</a>
+                    <a href="property-single.html">245 مكتب
+                      <br /> القرية الذكية</a>
                   </h2>
                 </div>
                 <div class="card-body-a">
                   <div class="price-box d-flex">
-                    <span class="price-a">rent | $ 12.000</span>
+                    <span class="price-a">السعر | $ 1200.000</span>
                   </div>
-                  <a href="property-single.html" class="link-a">Click here to view
+                  <a href="property-single.html" class="link-a">إحجز الأن
                     <span class="ion-ios-arrow-forward"></span>
                   </a>
                 </div>
                 <div class="card-footer-a">
                   <ul class="card-info d-flex justify-content-around">
                     <li>
-                      <h4 class="card-info-title">Area</h4>
+                      <h4 class="card-info-title">المساحة</h4>
                       <span>340m
                         <sup>2</sup>
                       </span>
                     </li>
                     <li>
-                      <h4 class="card-info-title">Beds</h4>
+                      <h4 class="card-info-title">حمام</h4>
                       <span>2</span>
                     </li>
                     <li>
-                      <h4 class="card-info-title">Baths</h4>
-                      <span>4</span>
+                      <h4 class="card-info-title">غرف</h4>
+                      <span>6</span>
                     </li>
                     <li>
                       <h4 class="card-info-title">Garages</h4>
@@ -567,10 +536,10 @@
         <div class="col-md-12">
           <div class="title-wrap d-flex justify-content-between">
             <div class="title-box">
-              <h2 class="title-a">Best Agents</h2>
+              <h2 class="title-a"> العقارات المميزة</h2>
             </div>
             <div class="title-link">
-              <a href="agents-grid.html">All Agents
+              <a href="agents-grid.html">كل العقارات
                 <span class="ion-ios-arrow-forward"></span>
               </a>
             </div>
@@ -581,26 +550,26 @@
         <div class="col-md-4">
           <div class="card-box-d">
             <div class="card-img-d">
-              <img src="img/agent-4.jpg" alt="" class="img-d img-fluid">
+              <img src="img/post-2.jpg" alt="" class="img-d img-fluid">
             </div>
             <div class="card-overlay card-overlay-hover">
               <div class="card-header-d">
                 <div class="card-title-d align-self-center">
                   <h3 class="title-d">
-                    <a href="agent-single.html" class="link-two">Margaret Sotillo
-                      <br> Escala</a>
+                    <a href="agent-single.html" class="link-two">مكتب عقارات
+                      <br> العاصمة الإدارية الجديدة </a>
                   </h3>
                 </div>
               </div>
               <div class="card-body-d">
                 <p class="content-d color-text-a">
-                  Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                  بادر بسرعة الحجز فهنالك المزيد من العروض لدينا
                 </p>
                 <div class="info-agents color-a">
                   <p>
-                    <strong>Phone: </strong> +54 356 945234</p>
+                    <strong>للتواصل : </strong> +54 356 945234</p>
                   <p>
-                    <strong>Email: </strong> agents@example.com</p>
+                    <strong>البريد الإلكتروني: </strong> agents@example.com</p>
                 </div>
               </div>
               <div class="card-footer-d">
@@ -640,26 +609,26 @@
         <div class="col-md-4">
           <div class="card-box-d">
             <div class="card-img-d">
-              <img src="img/agent-1.jpg" alt="" class="img-d img-fluid">
+              <img src="img/post-6.jpg" alt="" class="img-d img-fluid">
             </div>
             <div class="card-overlay card-overlay-hover">
               <div class="card-header-d">
                 <div class="card-title-d align-self-center">
                   <h3 class="title-d">
-                    <a href="agent-single.html" class="link-two">Stiven Spilver
-                      <br> Darw</a>
+                    <a href="agent-single.html" class="link-two">فيلا 
+                      <br> التجمع الخامس</a>
                   </h3>
                 </div>
               </div>
               <div class="card-body-d">
                 <p class="content-d color-text-a">
-                  Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                  بادر بسرعة الحجز فهنالك المزيد من العروض لدينا
                 </p>
                 <div class="info-agents color-a">
                   <p>
-                    <strong>Phone: </strong> +54 356 945234</p>
+                    <strong>للتواصل : </strong> +54 356 945234</p>
                   <p>
-                    <strong>Email: </strong> agents@example.com</p>
+                    <strong>البريد الإلكتروني: </strong> agents@example.com</p>
                 </div>
               </div>
               <div class="card-footer-d">
@@ -699,26 +668,26 @@
         <div class="col-md-4">
           <div class="card-box-d">
             <div class="card-img-d">
-              <img src="img/agent-5.jpg" alt="" class="img-d img-fluid">
+              <img src="img/post-7.jpg" alt="" class="img-d img-fluid">
             </div>
             <div class="card-overlay card-overlay-hover">
               <div class="card-header-d">
                 <div class="card-title-d align-self-center">
                   <h3 class="title-d">
-                    <a href="agent-single.html" class="link-two">Emma Toledo
-                      <br> Cascada</a>
+                    <a href="agent-single.html" class="link-two">شقة 
+                      <br> الزمالك</a>
                   </h3>
                 </div>
               </div>
               <div class="card-body-d">
                 <p class="content-d color-text-a">
-                  Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                  بادر بسرعة الحجز فهنالك المزيد من العروض لدينا
                 </p>
                 <div class="info-agents color-a">
                   <p>
-                    <strong>Phone: </strong> +54 356 945234</p>
+                    <strong>للتواصل : </strong> +54 356 945234</p>
                   <p>
-                    <strong>Email: </strong> agents@example.com</p>
+                    <strong>البريد الإلكتروني: </strong> agents@example.com</p>
                 </div>
               </div>
               <div class="card-footer-d">
@@ -767,10 +736,10 @@
         <div class="col-md-12">
           <div class="title-wrap d-flex justify-content-between">
             <div class="title-box">
-              <h2 class="title-a">Latest News</h2>
+              <h2 class="title-a">أحدث العقارات</h2>
             </div>
             <div class="title-link">
-              <a href="blog-grid.html">All News
+              <a href="blog-grid.html"> كل ما هو جديد
                 <span class="ion-ios-arrow-forward"></span>
               </a>
             </div>
@@ -786,12 +755,12 @@
             <div class="card-overlay">
               <div class="card-header-b">
                 <div class="card-category-b">
-                  <a href="#" class="category-b">House</a>
+                  <a href="#" class="category-b">جديد</a>
                 </div>
                 <div class="card-title-b">
                   <h2 class="title-2">
-                    <a href="blog-single.html">House is comming
-                      <br> new</a>
+                    <a href="blog-single.html">6 أكتوبر
+                      <br> مكتب </a>
                   </h2>
                 </div>
                 <div class="card-date">
@@ -809,12 +778,12 @@
             <div class="card-overlay">
               <div class="card-header-b">
                 <div class="card-category-b">
-                  <a href="#" class="category-b">Travel</a>
+                  <a href="#" class="category-b">جديد</a>
                 </div>
                 <div class="card-title-b">
                   <h2 class="title-2">
-                    <a href="blog-single.html">Travel is comming
-                      <br> new</a>
+                    <a href="blog-single.html">العاصمة الإدارية الجديده
+                      <br> شقة </a>
                   </h2>
                 </div>
                 <div class="card-date">
@@ -832,12 +801,12 @@
             <div class="card-overlay">
               <div class="card-header-b">
                 <div class="card-category-b">
-                  <a href="#" class="category-b">Park</a>
+                  <a href="#" class="category-b">جديد</a>
                 </div>
                 <div class="card-title-b">
                   <h2 class="title-2">
-                    <a href="blog-single.html">Park is comming
-                      <br> new</a>
+                    <a href="blog-single.html">التجمع الخامس
+                      <br> فيلا </a>
                   </h2>
                 </div>
                 <div class="card-date">
@@ -875,99 +844,26 @@
   </section>
   <!--/ News End /-->
 
-  <!--/ Testimonials Star /-->
-  <section class="section-testimonials section-t8 nav-arrow-a">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="title-wrap d-flex justify-content-between">
-            <div class="title-box">
-              <h2 class="title-a">Testimonials</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="testimonial-carousel" class="owl-carousel owl-arrow">
-        <div class="carousel-item-a">
-          <div class="testimonials-box">
-            <div class="row">
-              <div class="col-sm-12 col-md-6">
-                <div class="testimonial-img">
-                  <img src="img/testimonial-1.jpg" alt="" class="img-fluid">
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-6">
-                <div class="testimonial-ico">
-                  <span class="ion-ios-quote"></span>
-                </div>
-                <div class="testimonials-content">
-                  <p class="testimonial-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, cupiditate ea nam praesentium
-                    debitis hic ber quibusdam
-                    voluptatibus officia expedita corpori.
-                  </p>
-                </div>
-                <div class="testimonial-author-box">
-                  <img src="img/mini-testimonial-1.jpg" alt="" class="testimonial-avatar">
-                  <h5 class="testimonial-author">Albert & Erika</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item-a">
-          <div class="testimonials-box">
-            <div class="row">
-              <div class="col-sm-12 col-md-6">
-                <div class="testimonial-img">
-                  <img src="img/testimonial-2.jpg" alt="" class="img-fluid">
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-6">
-                <div class="testimonial-ico">
-                  <span class="ion-ios-quote"></span>
-                </div>
-                <div class="testimonials-content">
-                  <p class="testimonial-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, cupiditate ea nam praesentium
-                    debitis hic ber quibusdam
-                    voluptatibus officia expedita corpori.
-                  </p>
-                </div>
-                <div class="testimonial-author-box">
-                  <img src="img/mini-testimonial-2.jpg" alt="" class="testimonial-avatar">
-                  <h5 class="testimonial-author">Pablo & Emma</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--/ Testimonials End /-->
-
   <!--/ footer Star /-->
   <section class="section-footer">
     <div class="container">
-      <div class="row">
+      <div class="row" dir="rtl">
         <div class="col-sm-12 col-md-4">
           <div class="widget-a">
             <div class="w-header-a">
-              <h3 class="w-title-a text-brand">EstateAgency</h3>
+              <h3 class="w-title-a text-brand">إسكان جديد</h3>
             </div>
             <div class="w-body-a">
               <p class="w-text-a color-text-a">
-                Enim minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat duis
-                sed aute irure.
+                خدمات إسكان جديد تساعدك على بيع وشراء العقارات بسهولة بالإضافة إلى تزويدك بمعلومات أساسية لإتخاذ واحد من أهم القرارات المالية في حياتك.
               </p>
             </div>
             <div class="w-footer-a">
               <ul class="list-unstyled">
                 <li class="color-a">
-                  <span class="color-text-a">Phone .</span> contact@example.com</li>
+                  <span class="color-text-a">البريد الإلكتروني .</span> contact@example.com</li>
                 <li class="color-a">
-                  <span class="color-text-a">Email .</span> +54 356 945234</li>
+                  <span class="color-text-a">تليفون .</span> +54 356 945234</li>
               </ul>
             </div>
           </div>
@@ -975,28 +871,28 @@
         <div class="col-sm-12 col-md-4 section-md-t3">
           <div class="widget-a">
             <div class="w-header-a">
-              <h3 class="w-title-a text-brand">The Company</h3>
+              <h3 class="w-title-a text-brand">عقارات للبيع</h3>
             </div>
             <div class="w-body-a">
               <div class="w-body-a">
                 <ul class="list-unstyled">
                   <li class="item-list-a">
-                    <i class="fa fa-angle-right"></i> <a href="#">Site Map</a>
+                    <i class="fa fa-angle-right"></i> <a href="#">القاهرة </a>
                   </li>
                   <li class="item-list-a">
-                    <i class="fa fa-angle-right"></i> <a href="#">Legal</a>
+                    <i class="fa fa-angle-right"></i> <a href="#">الإسكندرية</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="fa fa-angle-right"></i> <a href="#">Agent Admin</a>
+                    <i class="fa fa-angle-right"></i> <a href="#"> المعادي</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="fa fa-angle-right"></i> <a href="#">Careers</a>
+                    <i class="fa fa-angle-right"></i> <a href="#">الإسكندرية</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="fa fa-angle-right"></i> <a href="#">Affiliate</a>
+                    <i class="fa fa-angle-right"></i> <a href="#">أكتوبر</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="fa fa-angle-right"></i> <a href="#">Privacy Policy</a>
+                    <i class="fa fa-angle-right"></i> <a href="#">الجيزة</a>
                   </li>
                 </ul>
               </div>
@@ -1006,27 +902,27 @@
         <div class="col-sm-12 col-md-4 section-md-t3">
           <div class="widget-a">
             <div class="w-header-a">
-              <h3 class="w-title-a text-brand">International sites</h3>
+              <h3 class="w-title-a text-brand">خدماتنا</h3>
             </div>
             <div class="w-body-a">
               <ul class="list-unstyled">
                 <li class="item-list-a">
-                  <i class="fa fa-angle-right"></i> <a href="#">Venezuela</a>
+                  <i class="fa fa-angle-right"></i> <a href="#">تقييم عقاري </a>
                 </li>
                 <li class="item-list-a">
-                  <i class="fa fa-angle-right"></i> <a href="#">China</a>
+                  <i class="fa fa-angle-right"></i> <a href="#">دليل الأسعار </a>
                 </li>
                 <li class="item-list-a">
-                  <i class="fa fa-angle-right"></i> <a href="#">Hong Kong</a>
+                  <i class="fa fa-angle-right"></i> <a href="#">دليل الكمبوند</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="fa fa-angle-right"></i> <a href="#">Argentina</a>
+                  <i class="fa fa-angle-right"></i> <a href="#">نصائح</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="fa fa-angle-right"></i> <a href="#">Singapore</a>
+                  <i class="fa fa-angle-right"></i> <a href="#">الأحكام والشروط</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="fa fa-angle-right"></i> <a href="#">Philippines</a>
+                  <i class="fa fa-angle-right"></i> <a href="#">تواصل معنا</a>
                 </li>
               </ul>
             </div>
@@ -1039,7 +935,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <nav class="nav-footer">
+          <!-- <nav class="nav-footer">
             <ul class="list-inline">
               <li class="list-inline-item">
                 <a href="#">Home</a>
@@ -1057,7 +953,7 @@
                 <a href="#">Contact</a>
               </li>
             </ul>
-          </nav>
+          </nav> -->
           <div class="socials-a">
             <ul class="list-inline">
               <li class="list-inline-item">
@@ -1090,17 +986,8 @@
           <div class="copyright-footer">
             <p class="copyright color-text-a">
               &copy; Copyright
-              <span class="color-a">EstateAgency</span> All Rights Reserved.
+              <span class="color-a">MOHAMED ESSA</span> All Rights Reserved.
             </p>
-          </div>
-          <div class="credits">
-            <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=EstateAgency
-            -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
           </div>
         </div>
       </div>
