@@ -1162,6 +1162,8 @@ a:hover {
   color: #ffffff;
   position: absolute;
   bottom: 20px;
+  right: 1rem;
+  text-align: right;
   z-index: 2;
 }
 
