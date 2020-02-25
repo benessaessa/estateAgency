@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>اسكان جديد</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link rel="icon" href="img/dd1.jpg">
+  <!--   <link href="img/favicon.png" rel="icon"> -->
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cairo:400,700&display=swap" rel="stylesheet">
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="click-closed"></div>
+  <!--/ Form Search Star /-->
+  <div class="box-collapse" dir="rtl">
+    <div class="title-box-d">
+      <h3 class="title-d">بحث عقار</h3>
+    </div>
+    <span class="close-box-collapse right-boxed ion-ios-close"></span>
+    <div class="box-collapse-wrap form">
+      <form class="form-a text-right">
+        <div class="row">
+          <div class="col-md-12 mb-2">
+            <div class="form-group">
+              <label for="Type">اسم العقار</label>
+              <input type="text" class="form-control form-control-lg form-control-a" placeholder="اسم العقار">
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="Type">النوع</label>
+              <select class="form-control form-control-lg form-control-a" id="Type">
+                <option>بيع</option>
+                <option>ايجار</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="city">العنوان</label>
+              <select class="form-control form-control-lg form-control-a" id="city">
+                <option>القاهرة</option>
+                <option>الجيزة</option>
+                <option>الفيوم</option>
+                <option>المنيا</option>
+                <option>الإسكندرية</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="bathrooms">السعر الأدني</label>
+              <select class="form-control form-control-lg form-control-a" id="bathrooms">
+                <option>10000</option>
+                <option>20000</option>
+                <option>30000</option>
+                <option>40000</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="price">السعر الأقصي</label>
+              <select class="form-control form-control-lg form-control-a" id="price">
+                <option>Unlimite</option>
+                <option>$50,000</option>
+                <option>$100,000</option>
+                <option>$150,000</option>
+                <option>$200,000</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-b">بحث</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!--/ Form Search End /-->
+
+  <!--/ Nav Star /-->
+  <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top" dir="rtl">
+    <div class="container">
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a class="navbar-brand text-brand" href="index.html"> إسكان<span class="color-b"> جديد </span></a>
+      <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse"
+        data-target="#navbarTogglerDemo01" aria-expanded="false">
+        <span class="fa fa-search" aria-hidden="true"></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="logIn.html">دخول</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">أخبار</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="all.html">إيجار</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="all.html">بيع</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="meza.html">عقار مميز</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              المزيد
+            </a>
+            <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="single.html">فيلا</a>
+              <a class="dropdown-item" href="blog-single.html">شقة</a>
+              <a class="dropdown-item" href="agents-grid.html">كمبوند</a>
+              <a class="dropdown-item" href="agent-single.html">مكتب</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactUs.html">تواصل معنا</a>
+          </li>
+        </ul>
+      </div>
+      <button type="button" class="btn btn-b-n navbar-toggle-box-collapse d-none d-md-block" data-toggle="collapse"
+        data-target="#navbarTogglerDemo01" aria-expanded="false">
+        <span class="fa fa-search" aria-hidden="true"></span>
+      </button>
+    </div>
+  </nav>
+  <!--/ Nav End /-->
+  <div class="container my-5" style="padding-top: 5rem">
+    <div class="row pt-5 justify-content-around text-right" dir="rtl">
+        <div class="col-lg-5 wow fadeIn">
+            <p class="pt-5"><small class="bankGothFontOpacity"> تسجيل الدخول </small></p>
+            <h5 class="bankGothFont">أدخل الي حسابك الآن</h5>
+            <form action="#" class="formCheckOut pt-2">
+                
+                <div class="form-group">
+                    <label>البريد الإلكتروني</label>
+                    <input type="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label> الرقم السري </label>
+                    <input type="text" class="form-control">
+                </div>
+                <button class="btn btnContinue px-3 mt-4 rounded-0">تسجيل الدخول</button>
+                <p class="pt-5"><a href="registration.html" class="bankGothFontOpacity text-dark">ليس لديك حساب ؟</a>
+                <a href="registration.html" class="bankGothFont text-dark">إنشاء حساب جديد</a></p><hr>
+            </form>
+            <button class="btn btn-block btn-info py-3 my-5 rounded-0"><i class="fa fa-facebook-f px-4"></i>سجل بإستخدام ال facebook</button>
+        </div>
+        <div class="col-lg-5">
+            <img src="img/post-6.jpg" class="img-fluid wow fadeIn">
+        </div>
+    </div>
+</div>
+      <!--/ footer Star /-->
+  <section class="section-footer">
+    <div class="container">
+      <div class="row" dir="rtl">
+        <div class="col-sm-12 col-md-4">
+          <div class="widget-a text-right">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand">إسكان جديد</h3>
+            </div>
+            <div class="w-body-a">
+              <p class="w-text-a color-text-a">
+                خدمات إسكان جديد تساعدك على بيع وشراء العقارات بسهولة بالإضافة إلى تزويدك بمعلومات أساسية لإتخاذ واحد من
+                أهم القرارات المالية في حياتك.
+              </p>
+            </div>
+            <div class="w-footer-a">
+              <ul class="list-unstyled text-right">
+                <li class="color-a">
+                  <span class="color-text-a">البريد الإلكتروني .</span> contact@example.com</li>
+                <li class="color-a">
+                  <span class="color-text-a">تليفون .</span> +54 356 945234</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 section-md-t3">
+          <div class="widget-a text-right">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand text-center">عقارات للبيع</h3>
+            </div>
+            <div class="w-body-a">
+              <div class="w-body-a">
+                <ul class="list-unstyled">
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">القاهرة </a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">الإسكندرية</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#"> المعادي</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">الإسكندرية</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">أكتوبر</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">الجيزة</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 section-md-t3">
+          <div class="widget-a text-right">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand text-center">خدماتنا</h3>
+            </div>
+            <div class="w-body-a">
+              <ul class="list-unstyled">
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">تقييم عقاري </a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">دليل الأسعار </a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">دليل الكمبوند</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">نصائح</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">الأحكام والشروط</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">تواصل معنا</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- <nav class="nav-footer">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#">Home</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">About</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Property</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Blog</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </nav> -->
+          <div class="socials-a">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-dribbble" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="copyright-footer">
+            <p class="copyright color-text-a">
+              &copy; Copyright
+              <span class="color-a">MOHAMED ESSA</span> All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--/ Footer End /-->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/scrollreveal/scrollreveal.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>
